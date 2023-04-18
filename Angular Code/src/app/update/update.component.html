@@ -1,0 +1,22 @@
+<div align="center">
+    <h3>update Student Data</h3>
+     <br> <br>
+
+     <form #updateform="ngForm" (ngSubmit)="updatedata(updateform)">
+      
+        <label>Student ID : </label>
+        <input type="number" id="sid" name="sid" #sid (ngModel)="sid">
+         <br><br>
+         <label>Student Name : </label>
+        <input type="text" id="sname" name="sname" #sname (ngModel)="sname">
+         <br><br>
+         <label>Student Per : </label>
+        <input type="number" id="sper" name="sper" #sper (ngModel)="sper">
+         <br><br>
+
+         <input type="submit" value="Update">
+     </form>
+
+
+
+</div>

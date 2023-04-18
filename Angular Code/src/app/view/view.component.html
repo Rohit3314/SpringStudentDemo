@@ -1,0 +1,17 @@
+<div align="center">
+<h3>Student Data</h3>
+<br>
+               <table border="1">
+                 <tr>
+                     <th>Student ID</th>
+                     <th>Student Name</th>
+                     <th>Student Per</th>
+                    </tr>
+                    <tr *ngFor="let s of data">
+                        <td>{{s.sid}}</td>
+                        <td>{{s.sname}}</td>
+                        <td>{{s.sper}}</td>
+                       </tr>
+               </table>
+
+</div>
